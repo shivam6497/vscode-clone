@@ -1,0 +1,419 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
+}
+.nav-bar{
+    display: flex;
+    background-color: #0d1014;
+    justify-content: space-between;
+    height: 70px;
+    padding-right: 130px;
+    padding-left: 130px;
+    align-items: center;
+}
+
+.links{
+    color: #E2E2E2;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 15px;
+}
+
+.nav-bar img{
+    vertical-align: middle;
+}
+
+.nav-bar span{
+    vertical-align: middle;
+}
+
+.download{
+    background-color: #0078D4;
+    text-decoration: underline;
+    width: 100px;
+    height: 37px;
+    border-radius: 4px;
+    color: #fff;
+    border: solid black;
+    cursor: pointer;
+}
+
+.download:hover{
+    text-decoration: none;
+}
+
+.nav-bar input {
+    background: transparent;
+    border: 1px solid #555;
+    border-radius: 4px;
+    padding: 8px 12px;
+    color: white;
+    outline: none;
+}
+
+.nav-bar input::placeholder {
+    color: #aaa;
+}
+
+.hero-sec{
+    display: flex;  width: 100%; height: 500px; justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#141416;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: #E2E2E2;
+    font-weight: 700;
+    padding-top: 2.5rem;
+
+}
+
+.download-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    width: 350px;
+    border: #aaa solid;
+    border-radius: 10px;
+}
+
+.download-box button {
+    background-color: #0078D4;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.download-box a {
+    color: #3794ff;
+    text-decoration: none;
+}
+
+.download-box a:hover {
+    text-decoration: underline;
+}
+
+.free-cop{
+    background: url("https://code.visualstudio.com/assets/home/copilot-free-banner-bg-dark.webp");
+    height: 170px;
+    width: 900px;
+    background-size: cover;
+    border: solid 0.5px grey;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    color: #E6EEFA;
+    padding-left: 40px;
+    padding-right: 150px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.container{
+    background-color: #141416;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 60px;
+    gap: 40px;
+    padding-left: 280px;
+}
+
+.txt-container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    padding-right: 30px;
+    width: 300px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    gap: 10px;
+    flex: 1;
+}
+
+.extension-tile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    text-decoration: none;
+    color: white;
+    background-color: #1e1e1e;
+    
+}
+.extension-tile:hover {
+    border-color: #0078D4;
+    background-color: #2a2a2a;
+}
+
+.extension-tile img {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+}
+
+.extension-tile-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+
+
+.extension-tile-detail h3 {
+    margin: 0;
+    font-size: 14px;
+    color: #E6EEFA;
+}
+
+.extension-tile-detail p {
+    margin: 0;
+    font-size: 12px;
+    color: #9FB1D1;
+}
+
+.language-tile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    
+    text-decoration: none;
+    color: white;
+}
+
+.grid-language-container{
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    gap: 8;
+    height: 300px;
+}
+
+.language-tile img{
+    height: 40px;
+    width: 40px;
+}
+
+.txt-container a{
+    color: #4daafc;
+}
+
+.image-set{
+    height: 450px;
+    width: 800px;
+}
+
+.hero-last{
+    background-color: #141416;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+
+}
+
+.lower-grid{
+    background-color: #141416;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 40px;
+    padding: 48px 100px;
+    padding-left: 120px;
+    padding-top: 0px;
+    max-width: 1400px; 
+   
+}
+
+.lower-grid-a{
+    text-decoration: none;
+    color: #4daafc;
+    background-color: rgba(255, 255, 255, 0.04);
+    display: flex;
+    flex-direction: column;
+    padding: 20px; 
+    border-radius: 8px;
+    transition: background-color 0.3s; 
+}
+
+.lower-grid-a:hover{
+    background-color: rgba(255, 255, 255, 0.08); 
+}
+
+.lower-grid-a img{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 16px; 
+}
+
+.lower-grid-a h3{
+    color: #E6EEFA;
+    margin-bottom: 8px;
+}
+
+.lower-grid-a p{
+    color: #9FB1D1;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.footer {
+    background-color: #1e1e1e;
+    color: #9FB1D1;
+    padding-top: 60px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 60px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    padding-bottom: 40px;
+}
+
+/* Brand Section */
+.footer-brand {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-brand p {
+    color: #9FB1D1;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Footer Sections */
+.footer-section h4 {
+    color: #E6EEFA;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #9FB1D1;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #4daafc;
+}
+
+/* Social Media Section */
+.footer-social {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-links {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.social-links a {
+    color: #9FB1D1;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.04);
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+.social-links a:hover {
+    background-color: rgba(77, 170, 252, 0.1);
+    color: #4daafc;
+    transform: translateY(-2px);
+}
+
+.social-links svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* Bottom Bar */
+.footer-bottom {
+    background-color: #141416;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-bottom-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-legal {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.footer-legal a {
+    color: #9FB1D1;
+    text-decoration: none;
+    font-size: 13px;
+    transition: color 0.3s;
+}
+
+.footer-legal a:hover {
+    color: #4daafc;
+}
+
+.footer-copyright p {
+    color: #6e7681;
+    font-size: 13px;
+    margin: 0;
+}
+
